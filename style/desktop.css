@@ -247,6 +247,10 @@ a {
     text-align: start;
 }
 
+a:hover {
+    color: rgba(38, 187, 164, 1);
+}
+
 #faqs {
     grid-area: faqs;
     /* order: 1; */
