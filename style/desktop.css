@@ -1,0 +1,285 @@
+@media screen and (min-width: 1440px) {
+    body {
+        background: url(../images/bg-header-desktop.png) no-repeat;
+        background-size: 100%;
+    }
+
+    /* header */
+
+    .header-div {
+        padding-top: 128px;
+    }
+
+    /* main */
+
+    /* history div */
+
+    .history-div{
+        padding: 56px 354px 0px 355px;
+    }
+
+    .history-div h1 {
+        width: 730px;
+        font-size: 46px;
+        line-height: 57.5px;
+        letter-spacing: -0.75px;
+    }
+
+    .history-div p {
+        width: 730px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+    }
+
+    .history-button {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .ios {
+        width: 227px;
+    }
+
+    .ios:hover {
+        background: rgba(38, 187, 164, 0.5);
+        cursor: pointer;
+    }
+
+    .mac {
+        width: 227px;
+    }
+
+    .mac:hover {
+        background-color: rgba(97, 116, 255, 0.5);
+        cursor: pointer;
+    }
+
+
+/* snippets */
+
+.snippets {
+    padding: 150px 0px;
+}
+
+.snippets h2 {
+    width: 730px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.59px;
+    margin-bottom: 19px;
+}
+
+.snippets p {
+    width: 730px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    margin-bottom: 80px;
+}
+
+.snippets-div {
+    flex-direction: row;
+    padding: 0px 260px 0px 0px;
+    gap: 110px;
+    margin: 0px auto;
+}
+
+.computer {
+    width: 752px;
+    height: 572px;
+    margin-left: -30px;
+}
+
+.snippets-items {
+    gap: 56px;
+}
+
+.snippets-item h3 {
+    width: 350px;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.snippets-item p {
+    width: 350px;
+    line-height: 30px;
+    text-align: start;
+    margin: 0px;
+}
+
+/* clipboard */
+
+.clipboard {
+    gap: 111.88px;
+    padding-bottom: 161px;
+}
+
+.clipboard-content {
+    gap: 19px;
+}
+
+.clipboard-content h3 {
+    width: 730px;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.clipboard-content p {
+    width: 730px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+}
+
+.clipboard-image {
+    width: 812px;
+    height: 475px;
+}
+
+/* workflow */
+
+.blacklists {
+    margin-top: -4.5px;
+}
+
+.workflow {
+    gap: 72px;
+}
+
+.workflow-content {
+    gap: 19px;
+}
+
+.workflow-content h3 {
+    width: 730px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.59px;
+}
+
+.workflow-content p {
+    width: 730px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+}
+
+.workflow-items {
+    flex-direction: row;
+    width: 1110px;
+    gap: 30px;
+    align-items: start;
+}
+
+.text {
+    margin-bottom: 44px;
+}
+
+.preview {
+    margin-bottom: 44.07px;
+}
+
+.workflow-item h3 {
+    width: 350px;
+    margin-bottom: 16px;
+}
+
+.workflow-item p {
+    width: 350px;
+    line-height: 30px;
+}
+
+
+/* logos */
+
+.logos {
+    padding: 150px 0px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* clipboard ios */
+
+.clipboard-for-ios {
+    padding: 0px 0px 150px;
+}
+
+.clipboard-for-ios h3 {
+    width: 730px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.59px;
+    margin-bottom: 19px;
+}
+
+.clipboard-for-ios p {
+    width: 730px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    margin-bottom: 48px;
+}
+
+/* footer */
+
+.footer-div {
+    padding: 39px 165px;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+}
+
+.footer-div img {
+    margin-right: 135px;
+}
+
+nav {
+    margin-right: 165px;
+    display: grid;
+    width: 555px;
+    grid-template-areas: 'faqs privacy install' 'contact press . ';
+}
+
+a {
+    width: 160px;
+    text-align: start;
+}
+
+#faqs {
+    grid-area: faqs;
+    /* order: 1; */
+}
+
+#contact {
+    grid-area: contact;
+    /* order: 5; */
+}
+
+#privacy {
+    grid-area: privacy;
+    /* order: 3; */
+}
+
+#press {
+    grid-area: press;
+    /* order: 4; */
+}
+
+#install {
+    grid-area: install;
+    /* order: 2; */
+}
+
+
+.social-icons img {
+    margin: 0px;
+}
+
+.social-icons {
+    gap: 24px;
+    width: 120px;
+}
+
+}
